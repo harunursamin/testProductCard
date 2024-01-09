@@ -1,6 +1,7 @@
 @media (max-width: 767px){
     main{
     width: 90%;
+    margin: 1rem;
     }
     .row .mbl{
         display: inline !important;
@@ -14,10 +15,12 @@
     main .detail{
         height: 75%;   
     }
-    .image,
-    img,
+    .image, 
+    .image img{
+        border-radius: 1rem 1rem 0 0;
+    }
     .detail{
-    border-radius: 0;
+        border-radius: 0 0 1rem 1rem;
     }
     .detail del{
         margin-left: 3rem;
